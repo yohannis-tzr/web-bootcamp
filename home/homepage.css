@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Geograph;
+    src: url(geographwebregular.ttf);
+}
+body{
+    font-family: geograph, sans-serif;;
+}
+nav{
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+
+}
+
+#top-left{
+    color: black;
+    margin: 8px;
+    text-decoration: none;
+}
+#top-left:hover {
+  text-decoration: underline;
+}
+
+#sale:hover{
+    text-decoration: underline;
+}
+
+#sale{
+    color: #a52a2a;
+    text-decoration: none;
+}
+.right-nav{
+    margin: 8px;
+    color: black;
+    text-decoration: none;
+}
+.right-nav:hover{
+    text-decoration: underline;
+}
+
+.nav-2{
+    margin-top: 10px;
+    text-align: center;
+    word-spacing: 5px;
+    margin-bottom: 10px;
+    transition: 3s;
+    top: 0;
+    position: sticky;
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    
+}
+.shoes{
+    color: black;
+    text-decoration: none;
+}
+.shoes:hover{
+    text-decoration: underline;
+}
+
+#main-pic{
+    height: 720px;
+    width: 1510px;
+    object-fit: fill;
+}
+
