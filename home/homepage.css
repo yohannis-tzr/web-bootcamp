@@ -99,3 +99,22 @@ nav{
 
 }
 
+.we-make img{
+    margin-top: 20px;
+    max-width: 100%;
+    
+}
+
+.listing{
+    overflow: hidden;
+}
+.rock img{
+    max-width: 50%;
+    max-height: 50%;
+    width: 100%;
+    transition: .5s;
+    
+}
+.rock img:hover{
+    transform: scale(1.09);
+}
