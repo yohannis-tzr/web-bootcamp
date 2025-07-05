@@ -70,4 +70,20 @@ nav{
     width: 1510px;
     object-fit: fill;
 }
-
+*{
+    box-sizing: border-box;
+}
+#brown{
+    align-items: center;
+    display: flex;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
