@@ -114,17 +114,23 @@ nav{
   clear: both;
   display: table;
 }
+.rock{
+    overflow: hidden;
+}
 .rock img{
     max-width: 80%;
     max-height: 100%;
     width: 100%;
     transition: .5s;
     flex: 100%;
+    
   
 }
 .rock img:hover{
     transform: scale(1.09);
+    
 }
+
 
 .tree img{
     max-width: 100%;
@@ -137,6 +143,7 @@ nav{
 }
 .tree img:hover{
     transform: scale(1.09);
+    
 }
 
 .piper img{
@@ -148,4 +155,6 @@ nav{
 }
 .piper img:hover{
     transform: scale(1.09);
+    
 }
+
