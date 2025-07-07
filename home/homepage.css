@@ -82,6 +82,7 @@ nav{
     width: 33.33%;
     padding: 5px;
     overflow: hidden;
+    position: relative;
 }
 .row::after{
     content: "";
@@ -158,3 +159,31 @@ nav{
     
 }
 
+.brown-txt{
+    position: absolute;
+    top: 5%;
+    color: white;
+    padding: 20px;
+    right: center;
+    text-align: center;
+}
+.blue-text{
+    position: absolute;
+    top: 5%;
+    color: white;
+    padding: 20px;
+    right: 37%;
+    text-align: center;
+}
+.sky-text{
+    position: absolute;
+    top: 5%;
+    color: white;
+    padding: 20px;
+    right: 8%;
+    text-align: center;
+}
+
+.row{
+    position: relative;
+}
