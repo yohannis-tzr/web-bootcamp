@@ -203,13 +203,28 @@ nav{
     right: 5%;
     left: 55%;
     top: 50%;
-    transform: translateY(-145%);
+    transform: translateY(-115%);
     color: #000;
     font-family: geograph, sans-serif;
-    font-weight: 500;
+    font-weight: 100;
 }
 #small{
     font-family: geograph, sans-serif;
     font-size: 20px;
 
+}
+
+.buttons{
+    background-color: white;
+    height: 50px;
+    width: 160px;
+    text-align: center;
+    border: wheat;
+    font-family: geograph, sans-serif;   
+    transition: .5s;
+}
+
+.buttons:hover{
+    background-color: black;
+    color: white;
 }
