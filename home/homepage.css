@@ -3,7 +3,7 @@
     src: url(geographwebregular.ttf);
 }
 body{
-    font-family: geograph, sans-serif;;
+    font-family: geograph, sans-serif;
 }
 nav{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
@@ -69,6 +69,7 @@ nav{
     height: 720px;
     width: 1510px;
     object-fit: fill;
+    position: relative;
 }
 *{
     box-sizing: border-box;
@@ -186,4 +187,29 @@ nav{
 
 .row{
     position: relative;
+    font-family: geograph, sans-serif;;
+}
+
+.discount{
+    position: relative;
+}
+.main-text{
+    max-width: 500px;
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 1rem;
+    line-height: 1.1;
+    position: absolute;
+    right: 5%;
+    left: 55%;
+    top: 50%;
+    transform: translateY(-145%);
+    color: #000;
+    font-family: geograph, sans-serif;
+    font-weight: 500;
+}
+#small{
+    font-family: geograph, sans-serif;
+    font-size: 20px;
+
 }
