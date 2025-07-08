@@ -110,6 +110,7 @@ nav{
 .listing{
     overflow: hidden;
     display: flex;
+    margin-top: -280px;
 }
 .listin::after {
   content: "";
@@ -125,6 +126,7 @@ nav{
     width: 100%;
     transition: .5s;
     flex: 100%;
+    
     
   
 }
@@ -239,9 +241,21 @@ nav{
     transition: 0.5s;
     
 }
-.brown-text:hover{
-    opacity: 1;
+.we-make{
+    position: relative;
 }
-.brown-text.buttons:hover{
-    opacity: 1;
+.we-txt{
+    position: relative;
+    transform: translateY(-175%);
+    margin-left: 50px;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+#we{
+    margin-left: 50px;
+
 }
